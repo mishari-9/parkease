@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "lib": [
+      "ES2020"
+    ],
+    "jsx": "react-jsx",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "types": [
+      "jest",
+      "@testing-library/jest-dom"
+    ]
+  },
+  "include": [
+    "app",
+    "components",
+    "store",
+    "services",
+    "hooks",
+    "types",
+    "utils",
+    "constants",
+    "mock-data"
+  ],
+  "exclude": [
+    "node_modules",
+    ".expo"
+  ],
+  "extends": "expo/tsconfig.base"
+}
